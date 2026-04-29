@@ -1,0 +1,93 @@
+body {
+   background-color: #FFF3E0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #D2691E;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #333;
+}
+
+.titulo h1 {
+    margin: 0;
+}
+
+.titulo h3 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.central {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    flex: 1;
+}
+
+.destaque {
+    display: flex;
+    gap: 50px;
+
+    margin: 20px; 
+}
+
+.destaque img {
+    margin-top: 20px;
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.info h2 {
+    margin: 0;
+}
+
+.info p {
+    margin-top: 10px;
+}
+
+.perfil {
+    position: absolute;
+
+    top: 110px;  
+    left: 20px;   
+    width: 220px;
+    padding: 10px;
+
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.perfil img {
+    width: 50%;
+    height: auto;
+}
+
+.perfil p {
+    font-size: 14px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
