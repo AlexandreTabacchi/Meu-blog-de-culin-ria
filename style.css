@@ -1,87 +1,60 @@
 body {
-   background-color: #FFF3E0;
     margin: 0;
-    font-family: 'Times New Roman', Times, serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    font-family: Arial, sans-serif;
 }
 
 header {
-    background-color: #D2691E;
+    background-color: #8B0000;
     color: white;
     padding: 15px;
     display: flex;
     justify-content: space-between;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: #333;
-}
-
-.titulo h1 {
-    margin: 0;
-}
-
-.titulo h3 {
-    margin: 0;
-    font-weight: normal;
-    font-size: 14px;
 }
 
 nav a {
-    color: rgb(255, 255, 255);
+    color: white;
     margin-left: 15px;
     text-decoration: none;
 }
 
-.central {
-    width: 70%;
-    margin: 0 auto;
-    background-color: #FFFFFF;
-    flex: 1;
+.banner {
+    background-color: #FFA07A;
+    text-align: center;
+    padding: 50px;
 }
 
-.destaque {
+.sobre, .regioes, .cta {
+    padding: 30px;
+    text-align: center;
+}
+
+.cards {
     display: flex;
-    gap: 50px;
-
-    margin: 20px; 
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
 }
 
-.destaque img {
-    margin-top: 20px;
-    width: 250px;
-    height: 200px;
-    object-fit: cover;
+.card {
+    background-color: #FFD700;
+    padding: 20px;
+    border-radius: 10px;
+    width: 180px;
 }
 
-.info h2 {
-    margin: 0;
+.card h3 {
+    margin-top: 0;
 }
 
-.info p {
-    margin-top: 10px;
-}
-
-.perfil {
-    position: absolute;
-
-    top: 110px;  
-    left: 20px;   
-    width: 220px;
-    padding: 10px;
-
-    background-color: white;
-    border: 1px solid #ccc;
-}
-
-.perfil img {
-    width: 50%;
-    height: auto;
-}
-
-.perfil p {
+.card p {
     font-size: 14px;
+}
+.cta button {
+    background-color: #8B0000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
 }
 
 footer {
@@ -89,5 +62,4 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    margin-top: 20px;
 }
